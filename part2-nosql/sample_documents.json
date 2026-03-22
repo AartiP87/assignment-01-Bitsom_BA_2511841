@@ -1,43 +1,44 @@
 [
   {
-    "product_id": "E1001",
-    "name": "Smartphone XYZ",
+    "_id": 1,
+    "name": "Samsung 55-inch Smart TV",
     "category": "Electronics",
-    "price": 25000,
-    "brand": "TechBrand",
-    "specifications": {
-      "ram": "8GB",
-      "storage": "128GB",
-      "battery": "5000mAh"
-    },
+    "price": 45000,
+    "brand": "Samsung",
     "warranty_years": 2,
-    "available": true
+    "specs": {
+      "resolution": "4K",
+      "screen_size": "55 inch",
+      "voltage": "220V"
+    },
+    "features": ["Smart TV", "WiFi", "HDR"]
   },
   {
-    "product_id": "G2001",
-    "name": "Organic Milk",
+    "_id": 2,
+    "name": "Men's Denim Jacket",
+    "category": "Clothing",
+    "price": 2500,
+    "brand": "Levi's",
+    "size": ["S", "M", "L", "XL"],
+    "material": "Denim",
+    "color": "Blue",
+    "ratings": {
+      "average": 4.5,
+      "reviews": 120
+    }
+  },
+  {
+    "_id": 3,
+    "name": "Organic Milk 1L",
     "category": "Groceries",
     "price": 60,
+    "brand": "Amul",
     "expiry_date": "2024-12-20",
-    "brand": "FreshFarm",
-    "quantity": {
-      "value": 1,
-      "unit": "liter"
+    "nutritional_info": {
+      "calories": 150,
+      "fat": "8g",
+      "protein": "6g"
     },
-    "storage_instructions": ["Keep refrigerated", "Consume within 2 days after opening"]
-  },
-  {
-    "product_id": "C3001",
-    "name": "Men's Casual Shirt",
-    "category": "Clothing",
-    "price": 1200,
-    "brand": "FashionHub",
-    "sizes_available": ["S", "M", "L", "XL"],
-    "material": "Cotton",
-    "color_options": ["Blue", "Black"],
-    "ratings": [
-      { "user": "Amit", "rating": 4 },
-      { "user": "Rahul", "rating": 5 }
-    ]
+    "storage_instructions": ["Keep refrigerated", "Do not freeze"]
   }
 ]
